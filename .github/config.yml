@@ -1,0 +1,30 @@
+# Configuration for GitHub features
+
+# Comment to be posted to on first-time pull requests
+newPRWelcomeComment: >
+  Thank you for your contribution to Git Auto Pull! 
+  We'll review your pull request as soon as possible.
+
+# Comment to be posted to on PRs from first-time contributors
+firstPRMergeComment: >
+  Congratulations on your first pull request merge! 
+  Thank you for helping improve Git Auto Pull.
+
+# Comment to be posted to on first-time issues
+newIssueWelcomeComment: >
+  Thank you for opening an issue for Git Auto Pull.
+  We appreciate your feedback and will look into this soon.
+
+# Configuration for request-info
+requestInfoReplyComment: >
+  We would appreciate more information to help us understand your issue or pull request better.
+  
+# Configuration for sentiment-bot
+sentiment:
+  performStroke: true
+  thresholds:
+    - -0.2
+    - 0.2
+  comment: >
+    Please be respectful and constructive in your comments. 
+    Let's maintain a positive atmosphere for collaboration. 
